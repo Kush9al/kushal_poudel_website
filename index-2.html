@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Projects</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/touchTouch.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/touchTouch.jquery.js"></script>
+	<script src="js/script.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	</head>
+<body class="index-2">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<h1><a href="index.html">Brandscape Advertising and Digital Marketing Pvt. Ltd.</a><span>Thinking Forward</span></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a>
+								<ul>
+									<li><a href="#">Our Work</a></li>
+									<li><a href="#">Our Blogs</a>
+										<ul>
+											<li><a href="#">Our Work</a></li>
+											<li><a href="#">Our Vision</a></li>
+											<li><a href="#">Our Blogs</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Advertisement</a></li>
+								</ul>
+							</li>
+							<li><a href="index-1.html">About</a></li>
+							<li class="current"><a href="index-2.html">Projects</a></li>
+							<li><a href="index-3.html">Services</a></li>
+							<li><a href="index-4.html">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-1">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<header>
+						<h2><span>Our Projects</span></h2>
+					</header>
+				</div>
+				<div id="touch_gallery">
+					<div class="grid_4">
+						<div class="img_container"><a href="images/index-2_img-1-big.jpg"><img src="images/index-2_img-1.jpg" alt="projects"></a></div>
+						<article>
+							<h4>How to Increase Website Visibility on Google</h4>
+							<p>Creating a visually appealing website with readable content is one of the fundamental things to increase website visibility. It is, however, not the final step toward campaign success. When it comes to getting your website noticed, you may or may not recall that Google is the biggest game in town. Getting your website on the top page of Google is not a single-day task, it is rather a process of constantly creating quality content by following SEO Guidelines. An increase in website visibility promotes brand awareness and leads to increased traffic, sales, and growth. Here's how to boost your website's visibility in Google search results</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><a href="images/index-2_img-2-big.jpg"><img src="images/index-2_img-2.jpg" alt="projects"></a></div>
+						<article>
+							<h4>Digital Marketing in Nepal</h4>
+							<p>As the internet has become an integral part of everyday life, its use as a marketing medium is necessary which led to the growth of Digital Marketing in Nepal. Internet marketing demonstrates the trends on the internet and with technology. This challenges internet marketing companies to remain current and informed on how these technologies are used. The best digital marketing agency identifies the changing face of the internet on how businesses operate in the marketing industry. Digital marketing, unlike traditional marketing, is based on digital media and digital content framed within digital plans.</p>
+						</article>
+					</div>
+					<div class="grid_4">
+						<div class="img_container"><a href="images/index-2_img-3-big.jpg"><img src="images/index-2_img-3.jpg" alt="projects"></a></div>
+						<article>
+							<h4>5 Effective Content Marketing Ideas</h4>
+							<p>ontent Marketing is a Strategy of digital marketing which involves constantly creating and distributing valuable and relevant content that creates engagement and turns users into potential customers within a certain period of time. Although it is highly challenging to know which content would interest a particular user, much can be known about them from their digital footprints.You can Make huge business from content marketing and content writing. For example, USA Writings is a content writing service provider which provides the best essay writing service in USA.</p>
+						</article>
+					
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h2><span>Follow Us</span></h2>
+				<a href="#" class="btn bd-ra"><span class="fa fa-facebook"></span></a>
+				<a href="#" class="btn bd-ra"><span class="fa fa-tumblr"></span></a>
+				<a href="#" class="btn bd-ra"><span class="fa fa-google-plus"></span></a>
+				<pre>© <span id="copyright-year"></span> |   Powered by Brandscape</pre>
+			</div>
+		</div>
+		</div>
+	
+<script>
+	$(function(){
+		$('#touch_gallery a').touchTouch();
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+there are three type of html list
+1. ordered list<ol>
+2. unordered list<ul>
+3. defination list<dl>
