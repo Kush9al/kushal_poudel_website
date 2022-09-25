@@ -1,0 +1,100 @@
+.navbar-brand{
+    font-size: 1.8rem;
+    color: red;
+    font-family: 'Smooch', cursive;
+    -webkit-transform: rotate(-10deg);
+}
+.navbar-brand:hover{
+    color:blue;
+}
+.margin{
+    margin:auto;
+}
+
+.nav-link{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size:larger;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    text-transform:uppercase;
+}
+.nav-link:hover{
+    color: brown;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(249, 35, 95);
+
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(249, 35, 95); 
+    color: whitesmoke;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url('ss.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+} 
+
+.main h1{
+    font-size: 55px;
+    color:rgb(200, 200, 17);
+    font-weight:600;
+
+}
+
+.btn1{
+    margin-left: 12%;
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(249, 35, 95);
+    color:white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.new{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height:45px;
+    width:100px;
+    background: white;
+    margin-left: 10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.new input{
+    height:45px;
+    width:55%;
+    border: 2px soldi white;
+    outline: none;
+    background: black;
+    color:white;
+    margin-top: 20px;
+    font-weight:600;
+}
+
+.new::placeholder{
+    color: white;
+}
+
